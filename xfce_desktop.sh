@@ -168,14 +168,14 @@ sysrc webcamd_enable="YES"
 
 
 ## UPDATES CPU MICROCODE
-echo "mise a jour du CPU microcode..."
-echo ""
-pkg install -y devcpu-data
-sysrc microcode_update_enable="YES"
-service microcode_update start
-echo ""
-echo "Microcode est a jour"
-echo ""
+#echo "mise a jour du CPU microcode..."
+#echo ""
+#pkg install -y devcpu-data
+#sysrc microcode_update_enable="YES"
+#service microcode_update start
+#echo ""
+#echo "Microcode est a jour"
+#echo ""
 
 ## CLEAN CACHES AND AUTOREMOVES UNNECESARY FILES
 echo "Cleaning system..."
