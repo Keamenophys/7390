@@ -1,6 +1,6 @@
 #!/bin/bash
 
-pkg install -y drm-kmod libva-intel-driver
+pkg install -y drm-kmod
 sysrc -f /etc/rc.conf kld_list+=i915kms
 
 echo ""
