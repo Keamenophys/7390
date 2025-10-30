@@ -1,9 +1,9 @@
 xlogin.Login.greeting:
 xlogin.Login.unsecureGreeting:
-xlogin.Login.fail:                Fail.
+xlogin.Login.fail:                Erreur.
 xlogin.Login.changePasswdMessage: Change.
-xlogin.Login.namePrompt:          Username:
-xlogin.Login.passwdPrompt:        Password:
+xlogin.Login.namePrompt:          Identifiant:
+xlogin.Login.passwdPrompt:        Mot-de-Passe:
 xlogin.Login.echoPasswd:          true
 xlogin.Login.background:          black
 xlogin.Login.foreground:          white
